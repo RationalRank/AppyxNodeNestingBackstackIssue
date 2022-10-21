@@ -1,0 +1,22 @@
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "AppyxNodeNestingBackstackIssue"
+include ':app'
+
+//includeBuild ("/Users/ranjith/projects/open_source/appyx") {
+//    dependencySubstitution {
+//        substitute(module("com.bumble.appyx:core")).using(project(":libraries:core"))
+//    }
+//}
