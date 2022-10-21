@@ -2,4 +2,4 @@
 
 ###### Navigation tree is modeled as below
 
-![](assets/navigation_tree.jpg)
+![](assets/navigation_tree.png)
